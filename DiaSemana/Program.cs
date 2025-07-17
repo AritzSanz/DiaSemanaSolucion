@@ -9,7 +9,7 @@ internal class Program
 
         while (dia!=0) {
 
-            Console.WriteLine(value: "Introduce un numero del 1 al 7 ( o 0 para salir):");
+            Console.WriteLine(value: "Introduce un numero del 1 al 7 (o 0 para salir):");
             
             texto = Console.ReadLine();
             bool isParsedSuccessfully = Int32.TryParse(texto, out dia);
